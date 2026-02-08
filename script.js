@@ -27,7 +27,7 @@ noButton.addEventListener("click", function () {
 });
 
 function handleYesClick() {
-  titleElement.innerHTML = "Yayyy!! :3";
+  titleElement.innerHTML = "Yayyy!! :3 Widzimy się w Okuki Sushi 13.02 o 20 pupciu. Kocham Cię";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
 }
@@ -45,9 +45,13 @@ function generateMessage(noCount) {
     "No",
     "Are you sure?",
     "Pookie please",
+    "No weź pupciu..",
     "Don't do this to me :(",
     "You're breaking my heart",
+    "Głupia baba",
     "I'm gonna cry...",
+    "-_-",
+    "Lepiej się zgódź",
   ];
 
   const messageIndex = Math.min(noCount, messages.length - 1);
